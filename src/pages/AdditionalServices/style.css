@@ -1,13 +1,13 @@
 /* Обычный */
 @font-face {
   font-family: "Casper";
-  src: url(src/fonts/Casper.ttf);
+  src: url(../../fonts/Casper.ttf);
 }
 
 /* Жирный */
 @font-face {
   font-family: "CasperBold";
-  src: url(src/fonts/CasperBold.ttf);
+  src: url(../../fonts/CasperBold.ttf);
 }
 
 header {
@@ -37,22 +37,22 @@ header {
   margin-right: 27.7vw;
 }
 .menu_item {
+  text-decoration: none;
   font-family: "CasperBold";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  text-decoration: none;
   color: #22356f;
 }
 .menu_item:hover {
+  text-decoration: none;
   font-family: "CasperBold";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   color: #22356f;
-  text-decoration: none;
   border-bottom: 1px black solid;
   z-index: 100;
 }
@@ -61,54 +61,22 @@ header {
   height: 57px;
   font-family: "CasperBold";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 36px;
-  line-height: 38px;
+  line-height: 40px;
   padding: 86px 3.75vw 30px 12.3vw;
   color: #22356f;
 }
-.welcome {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 88.7vh;
-  padding: 0 3.75vw 0 12.3vw;
-  background-color: #f4f9e2;
-}
-.welcome_text_container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-right: 55px;
-}
-.welcome_h2 {
-  font-family: "CasperBold";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 50px;
-  color: #22356f;
-  padding-bottom: 65px;
-}
-.welcome_info {
-  font-family: "CasperBold";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 44px;
 
-  color: #22356f;
-}
-.news {
+.additionalServices {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60vh;
+  height: 100vh;
   padding: 0 0 0 12.3vw;
   background-color: #62d0df;
 }
-.news_text_container {
+.additionalServices_text_container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -117,147 +85,135 @@ header {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.news_h2 {
+.additionalServices_h2 {
   font-family: "CasperBold";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 36px;
-  color: #fff;
-  padding-top: 40px;
-  padding-bottom: 43px;
+  line-height: 50px;
+  color: #22356F;
+  padding-bottom: 65px;
 }
-.news_info {
+.additionalServices_info {
   font-family: "Casper";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 44px;
-  color: #fff;
+  color: #22356F;
 }
-.news_button_more {
-  margin-top: 20px;
-  border: 0;
-  text-decoration: none;
-  padding: 17px 22px;
-  margin-bottom: 40px;
-  color: #fff;
-  font-family: "Casper";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 16px;
-  background-color: #408af9;
-}
-.news_image_container {
+
+.additionalServices_image_container {
   display: flex;
   justify-content: flex-end;
+  align-items: stretch;
+  height: 100%;
+  width: 300vw;
+  overflow: hidden;
+}
+.additionalServices_image {
+  background-size: contain;
+  object-fit: cover;
+}
+
+.additionalServices_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* padding: 0 0 0 12.3vw; */
+}
+.additionalServices_text_container_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 120px;
+  margin-left: 100px;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+}
+.additionalServices_h2_2 {
+  font-family: "CasperBold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  color: #22356F;
+  padding-bottom: 65px;
+}
+.additionalServices_info_2 {
+  font-family: "Casper";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 44px;
+  color: #22356F;
+}
+
+.additionalServices_image_container_2 {
+  display: flex;
+  justify-content: flex-start;
   align-items: stretch;
   height: 100%;
   width: 100vw;
   overflow: hidden;
 }
-.news_image {
+.additionalServices_image_2 {
   background-size: contain;
   object-fit: cover;
 }
-.traditions {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.traditions_h2 {
-  font-family: "Casper";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 42px;
-  color: #22356f;
-  padding-top: 50px;
-}
-.traditions_container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.traditions_item {
-  width: 33vw;
-}
-.traditions_h3 {
-  font-family: "Casper";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 42px;
-  color: #22356f;
-  padding: 50px 100px 0 100px;
-}
-.traditions_info {
-  font-family: "Casper";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 32px;
 
-  padding: 20px 100px 0 100px;
-  color: rgba(34, 53, 111, 0.5);
-}
-.tendency {
+.additionalServices_3 {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  padding: 0 0 0 12.3vw;
 }
-.tendency_h2 {
+.additionalServices_info_3 {
   font-family: "Casper";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  padding: 40px 0;
-  color: rgba(34, 53, 111, 0.5);
+  font-size: 24px;
+  line-height: 44px;
+  color: #22356F;
 }
-.tendency_container {
+.additionalServices_h2_3 {
+  font-family: "CasperBold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  color: #22356F;
+  padding-bottom: 65px;
+}
+.additionalServices_text_container_3 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.additionalServices_image_container_3 {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  height: 100%;
+  width: 250vw;
+  overflow: hidden;
+}
+.additionalServices_image_3 {
+  background-size: contain;
+  object-fit: cover;
+}
+.additionalServices_4 {
+  display: flex;
   justify-content: center;
   align-items: center;
-}
-.tendency_item_1 {
-  height: 360px;
-  width: 50vw;
-  background-color: #d478ff;
-}
-.tendency_item_2 {
-  height: 360px;
-  width: 50vw;
-  background-color: #69dfe7;
-}
-.tendency_br {
-  padding-top: 72px;
-  margin-left: 56px;
-  width: 256px;
-  border-bottom: 1px #fff solid;
-}
-.tendency_info {
-  font-family: "CasperBold";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 43px;
-  color: #e9b730;
-  padding-top: 23px;
-  margin-left: 56px;
-}
-.tendency_info span {
-  font-family: "CasperBold";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 43px;
-  color: #ffffff;
-  padding-top: 23px;
+  height: 100vh;
 }
 footer {
   display: flex;
@@ -319,5 +275,5 @@ footer {
   line-height: 14px;
 
   padding-left: 180px;
-  color: #ffffff;
+  color: #22356F;
 }

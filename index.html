@@ -12,10 +12,10 @@
     <header>
       <div class="logo_text">МБОУ СОШ №4</div>
       <div class="menu">
-        <div class="menu_item">Главная</div>
-        <div class="menu_item">Новости</div>
-        <div class="menu_item">Контакты</div>
-        <div class="menu_item">Доп. Услуги</div>
+        <a href="#" class="menu_item">Главная</a>
+        <a href="src/pages/News/News.html" class="menu_item">Новости</a>
+        <a href="src/pages/Contacts/Contacts.html" class="menu_item">Контакты</a>
+        <a href="src/pages/AdditionalServices/AdditionalServices.html" class="menu_item">Доп. Услуги</a>
       </div>
     </header>
     <div class="page_name">Главная</div>
@@ -40,7 +40,9 @@
         <h2 class="news_h2">Новости</h2>
         <div class="news_info">
           Объявляется открытым прием учащихся в 10 классы по следующим профилям
-          обучения: в социально-гуманитарный информационно-технологический.
+          обучения:
+          <li class="news_info">в социально-гуманитарный</li>
+          <li class="news_info">информационно-технологический.</li>
           Поступающий обязан предоставить МБОУ СОШ №4 следующие документы:
         </div>
         <li class="news_info">
@@ -48,7 +50,9 @@
           обу...
         </li>
 
-        <a href="src/pages/#" class="news_button_more">Подробнее</a>
+        <a href="src/pages/News/News.html" class="news_button_more"
+          >Подробнее</a
+        >
       </div>
       <div class="news_image_container">
         <img
@@ -164,7 +168,9 @@
           </div>
         </div>
       </div>
-      <div class="copyright">© Корсаков А.С. 2022</div>
+      <div class="copyright">
+        <div class="copyright_text">© Корсаков А.С. 2022</div>
+      </div>
     </footer>
   </body>
 </html>

@@ -1,0 +1,240 @@
+/* Обычный */
+@font-face {
+  font-family: "Casper";
+  src: url(../../fonts/Casper.ttf);
+}
+
+/* Жирный */
+@font-face {
+  font-family: "CasperBold";
+  src: url(../../fonts/CasperBold.ttf);
+}
+
+header {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 30px 27.7vw 30px 12.3vw;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.logo_text {
+  font-family: "Casper";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 26px;
+  color: #62d0df;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 423px;
+  margin-right: 27.7vw;
+}
+.menu_item {
+  font-family: "CasperBold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #22356f;
+}
+.menu_item:hover {
+  font-family: "CasperBold";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #22356f;
+  text-decoration: none;
+  border-bottom: 1px black solid;
+  z-index: 100;
+}
+.page_name {
+  /* padding-top: 86px; */
+  height: 57px;
+  font-family: "CasperBold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 38px;
+  padding: 86px 3.75vw 30px 12.3vw;
+  color: #22356f;
+}
+
+.contacts {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contacts_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 33vw;
+  height: 33vw;
+}
+.contacts_item_1 {
+  background-image: url(../../img/joanna-kosinska-340748.png);
+  background-size: cover;
+}
+.contacts_item_2 {
+  background-color: #0052c1;
+}
+.contacts_item_3 {
+  background-image: url(../../img/greenBoard.png);
+  background-size: cover;
+}
+.contacts_item_4 {
+  background-color: #62d0df;
+}
+.contacts_item_5 {
+  background-color: #adceff;
+}
+.contacts_item_6 {
+  background-color: #8f00ff;
+}
+.contacts_item_7 {
+  background-color: #6f2230;
+}
+.contacts_item_8 {
+  background-size: cover;
+  background-image: url(../../img/board.png);
+}
+
+.contact_name {
+  font-family: "Casper";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 35px;
+  width: 400px;
+  padding: 55px 40px 0;
+  color: #e9b730;
+}
+.contact_name span {
+  font-family: "Casper";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 35px;
+  color: #ffffff;
+}
+.br {
+  height: 1px;
+  width: 360px;
+  margin: 50px 0;
+  border-bottom: 1px #fff solid;
+}
+.contact_info {
+  font-family: "Casper";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 35px;
+  width: 400px;
+  color: #ffffff;
+}
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+.map_container {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.map_title {
+  height: 57px;
+  font-family: "CasperBold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 38px;
+  padding: 30px 0 28px 0;
+  color: #22356f;
+}
+.map_street {
+  padding: 70px;
+  font-family: "Casper";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 68px;
+  color: #22356f;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.info_text_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.info_text_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info_h3 {
+  font-family: "Casper";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  height: 48px;
+  width: 200px;
+  padding: 0 4vw 20px;
+  color: #22356f;
+}
+
+.info_text {
+  font-family: "Casper";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 29px;
+  width: 200px;
+  margin: 0 4vw;
+  color: rgba(34, 53, 111, 0.5);
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background-color: #62d0df;
+}
+.copyright_text {
+  font-family: "Casper";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+
+  padding-left: 180px;
+  color: #ffffff;
+}
