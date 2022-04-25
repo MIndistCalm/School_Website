@@ -70,17 +70,18 @@ header {
 
 .contacts {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
+  width: 100%;
 }
 .contacts_item {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 32vw;
-  height: 32vw;
+  width: 33.3%;
+  height: 33vw;
 }
 .contacts_item_1 {
   background-image: url(../../img/joanna-kosinska-340748.png);
