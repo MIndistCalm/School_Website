@@ -249,19 +249,18 @@ footer {
   font-size: 16px;
   line-height: 20px;
   height: 48px;
-  width: 200px;
-  padding: 0 4vw 20px;
+  width: 13.5vw;
+  padding: 0 3vw 30px;
   color: #22356f;
 }
-
 .info_text {
   font-family: "Casper";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 29px;
-  width: 200px;
-  margin: 0 4vw;
+  width: 13.5vw;
+  padding: 0 3vw;
   color: rgba(34, 53, 111, 0.5);
 }
 .copyright {
