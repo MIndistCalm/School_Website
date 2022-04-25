@@ -91,7 +91,7 @@ header {
   font-weight: 700;
   font-size: 36px;
   line-height: 50px;
-  color: #22356F;
+  color: #22356f;
   padding-bottom: 65px;
 }
 .additionalServices_info {
@@ -100,7 +100,7 @@ header {
   font-weight: 400;
   font-size: 24px;
   line-height: 44px;
-  color: #22356F;
+  color: #22356f;
 }
 
 .additionalServices_image_container {
@@ -134,21 +134,22 @@ header {
   padding-bottom: 20px; */
 }
 .additionalServices_h2_2 {
-  font-family: "CasperBold";
+  font-family: "Casper";
   font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 50px;
-  color: #22356F;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #22356f;
   padding-bottom: 65px;
 }
 .additionalServices_info_2 {
   font-family: "Casper";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 24px;
-  line-height: 44px;
-  color: #22356F;
+  line-height: 40px;
+
+  color: #22356f;
 }
 
 .additionalServices_image_container_2 {
@@ -172,21 +173,21 @@ header {
   padding: 0 0 0 12.3vw;
 }
 .additionalServices_info_3 {
-  font-family: "Casper";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 44px;
-  color: #22356F;
-}
-.additionalServices_h2_3 {
-  font-family: "CasperBold";
+  font-family: "Calibri";
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 50px;
-  color: #22356F;
+  font-size: 24px;
+  line-height: 40px;
+  color: #22356f;
+}
+.additionalServices_h2_3 {
+  font-family: "Casper";
+  font-style: normal;
+  color: #22356f;
   padding-bottom: 65px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
 }
 .additionalServices_text_container_3 {
   display: flex;
@@ -275,5 +276,5 @@ footer {
   line-height: 14px;
 
   padding-left: 180px;
-  color: #22356F;
+  color: #22356f;
 }
