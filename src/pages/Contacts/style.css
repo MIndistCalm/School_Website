@@ -9,7 +9,11 @@
   font-family: "CasperBold";
   src: url(../../fonts/CasperBold.ttf);
 }
-
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 header {
   display: flex;
   position: fixed;
@@ -209,7 +213,7 @@ footer {
   line-height: 20px;
   height: 48px;
   width: 13.5vw;
-  padding: 0 3vw 30px;
+  padding: 0 3vw 50px;
   color: #22356f;
 }
 .info_text {

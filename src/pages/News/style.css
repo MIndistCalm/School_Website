@@ -9,7 +9,10 @@
   font-family: "CasperBold";
   src: url(../../fonts/CasperBold.ttf);
 }
-
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 header {
   display: flex;
   position: fixed;
@@ -72,8 +75,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  padding: 0 0 0 12.3vw;
+  /* height: 100vh; */
+  padding: 6vh 0 6vh 12.3vw;
   background-color: #62d0df;
 }
 .news_text_container {
@@ -108,19 +111,20 @@ header {
   justify-content: flex-end;
   align-items: stretch;
   height: 100%;
-  width: 100vw;
+  width: 1200px;
   overflow: hidden;
+  background-color: red;
 }
 .news_image {
-  background-size: contain;
-  object-fit: cover;
+  background-size: 100%;
+  /* object-fit: cover; */
 }
 
 .news_2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
   /* padding: 0 0 0 12.3vw; */
   background-color: #626fdf;
 }
@@ -169,7 +173,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
   padding: 0 0 0 12.3vw;
   background-color: #A862DF;
 }
@@ -215,7 +219,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #DF8062;
 }
 footer {
@@ -250,7 +254,7 @@ footer {
   line-height: 20px;
   height: 48px;
   width: 13.5vw;
-  padding: 0 3vw 30px;
+  padding: 0 3vw 50px;
   color: #22356f;
 }
 .info_text {

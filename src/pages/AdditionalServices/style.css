@@ -9,7 +9,11 @@
   font-family: "CasperBold";
   src: url(../../fonts/CasperBold.ttf);
 }
-
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 header {
   display: flex;
   position: fixed;
@@ -72,7 +76,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
   padding: 0 0 0 12.3vw;
   background-color: #62d0df;
 }
@@ -86,13 +90,14 @@ header {
   padding-bottom: 20px;
 }
 .additionalServices_h2 {
-  font-family: "CasperBold";
   font-style: normal;
+  color: #22356f;
+  padding-bottom: 65px;
+  font-weight: 400;
+  font-family: "CasperBold";
   font-weight: 700;
   font-size: 36px;
   line-height: 50px;
-  color: #22356f;
-  padding-bottom: 65px;
 }
 .additionalServices_info {
   font-family: "Casper";
@@ -120,7 +125,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
   /* padding: 0 0 0 12.3vw; */
 }
 .additionalServices_text_container_2 {
@@ -134,12 +139,13 @@ header {
   padding-bottom: 20px; */
 }
 .additionalServices_h2_2 {
-  font-family: "Casper";
   font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 20px;
   color: #22356f;
+  font-weight: 400;
+  font-family: "CasperBold";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
   padding-bottom: 65px;
 }
 .additionalServices_info_2 {
@@ -169,7 +175,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
   padding: 0 0 0 12.3vw;
 }
 .additionalServices_info_3 {
@@ -181,13 +187,14 @@ header {
   color: #22356f;
 }
 .additionalServices_h2_3 {
-  font-family: "Casper";
   font-style: normal;
   color: #22356f;
   padding-bottom: 65px;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 20px;
+  font-family: "CasperBold";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
 }
 .additionalServices_text_container_3 {
   display: flex;
@@ -214,7 +221,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 footer {
   display: flex;
@@ -248,7 +255,7 @@ footer {
   line-height: 20px;
   height: 48px;
   width: 13.5vw;
-  padding: 0 3vw 30px;
+  padding: 0 3vw 50px;
   color: #22356f;
 }
 .info_text {
@@ -275,5 +282,5 @@ footer {
   line-height: 14px;
 
   padding-left: 180px;
-  color: #22356f;
+  color: #ffffff;
 }
