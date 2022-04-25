@@ -117,8 +117,8 @@ header {
   justify-content: center;
   align-items: flex-start;
   margin-right: 55px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  /* padding-top: 12px; */
+  /* padding-bottom: 12px; */
 }
 .news_h2 {
   font-family: "CasperBold";
